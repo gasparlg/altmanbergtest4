@@ -8,9 +8,10 @@ excerpt: "After such a special time as the bicentennial of the Declaration of In
 img: images/Publicidad-2-Vino-Panquegua.jpg 
 minread: 5
 lang: es
+author: By Gaspar Lobato Grinberg
 ---
 
-The history of Argentine wine dates back over 400 years ago when the first specimens of ‘vitis vinifera’ were brought to Peru, Chile and Argentina by the Spanish colonizers. Once in Argentina, the first vineyards were grown in the province of Santiago del Estero, where the first Argentine wines were ever made. However, the optimal climatic and soil conditions of the Andean region caused the wine industry to have a strong and rapid development in the center-west area of the country, the Cuyo region.
+<span class="dropcap">T</span>he history of Argentine wine dates back over 400 years ago when the first specimens of ‘vitis vinifera’ were brought to Peru, Chile and Argentina by the Spanish colonizers. Once in Argentina, the first vineyards were grown in the province of Santiago del Estero, where the first Argentine wines were ever made. However, the optimal climatic and soil conditions of the Andean region caused the wine industry to have a strong and rapid development in the center-west area of the country, the Cuyo region.
 
 Decades later, in the XVII century, the provinces of Cuyo, especially Mendoza and San Juan, had already an important wine production, and became suppliers to new markets such as the regions of Buenos Aires, Paraguay and northern Argentina.
 

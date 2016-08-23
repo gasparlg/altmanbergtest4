@@ -7,9 +7,10 @@ img: images/francis33333.jpg
 minread: 4
 lang: es
 excerpt: "It has been more than 40 years since Francis Mallmann, internationally renowned chef, opened his first restaurant. Today he is recognized by many of his colleagues as the best Argentine chef, and among the top chefs in the world." 
+author: By Gaspar Lobato Grinberg
 ---
 
-Francisco Jose Mallmann, son of the nuclear physicist Carlos Mallmann, was born in Buenos Aires, and grew up in the town of Bariloche in Patagonia where his father worked as the director of an atomic center. When he was 16, he decided that he didn’t like school and left his house and went to California motivated by the hippie youth movements of the time. He would live there for two years while working as a carpenter and gardener.
+<span class="dropcap">F</span>rancisco Jose Mallmann, son of the nuclear physicist Carlos Mallmann, was born in Buenos Aires, and grew up in the town of Bariloche in Patagonia where his father worked as the director of an atomic center. When he was 16, he decided that he didn’t like school and left his house and went to California motivated by the hippie youth movements of the time. He would live there for two years while working as a carpenter and gardener.
 
 At the age of 18 and back in Argentina, he opened a small restaurant in his hometown in Patagonia with an English friend, where he would give his first steps cooking professionally. By the time he was 22, he realized that he liked cooking so much that he moved to France to grow his career around the best chefs in the culinary world.
 

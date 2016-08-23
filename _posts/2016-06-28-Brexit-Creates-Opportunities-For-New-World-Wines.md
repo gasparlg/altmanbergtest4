@@ -8,6 +8,7 @@ img: images/UK_EU_Flags_Brexit_2.jpg
 excerpt: "The breakup between the UK and the EU has created a state of disturbance and uncertainty around the world. While this situation harms the trade in a short term, exporting countries outside the EU could take advantage of the crisis." 
 minread: 6
 lang: en
+author: By Gaspar Lobato Grinberg
 ---
 After the unexpected results of last week’s British referendum, the business media has categorized this situation as a commercial crisis for the United Kingdom and the European Union, as well as for the global markets.
 
