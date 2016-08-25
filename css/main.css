@@ -5382,5 +5382,11 @@ footer .tagspage {
 
 
 
+/* Here you set the height of the banner page of the thanks page */
 
-
+    #banner.ma {
+        /* height: 75vh; */
+        height: 40vh;
+        min-height: 10em;
+        max-height: 30em;
+    }
