@@ -1,5 +1,5 @@
 ---  
-layout:  default 
+layout:  default  
 ---
 
 
@@ -20,7 +20,6 @@ layout:  default
         <nav id="menu">
             <ul class="links">
                 <li><a href="{{site.baseurl}}index">Home</a></li>
-                <li><a href="{{site.baseurl}}authors">Authors</a></li>
                 <li><a href="{{site.baseurl}}tags/index">Archive</a></li>
                 <li><a href="#footer">Contact</a></li>
                 <li><a href="elements.html">English</a></li>
@@ -31,7 +30,7 @@ layout:  default
             </ul>
         </nav>
         <!-- Banner -->
-        <section id="banner" class="major">
+        <section id="banner" class="authors" class="major">
             <div class="inner">
                 <header class="major">
                     <h1><a href="{{site.baseurl}}index">Altman <span id="amp">&amp;</span> Berg</a></h1>
@@ -44,75 +43,78 @@ layout:  default
     
     
     
-    <div id="main">                
-    <section class="main">
-    <div class="posts">
     
-{% for post in paginator.posts %}
-    <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
-        <a href="{{post.url}}" class="imagep"><img src="{{site.baseurl}}{{post.img}}"></a>
-        <header>
-            <h2><a href="{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
-                {{post.title}}</a></h2>
-            <ul class="meta">
-            <li><time itemprop="dateCreated" datetime="{{post.date}}">
-                {{post.date | date:"%B %-d, %Y"}}</time></li>
-            <li>{{post.minread}} min read</li>
-            <li>{{post.author}}</li>
-            </ul>
-        </header>
-        <p><a href="{{post.url}}" title="read more" class="more">{{post.excerpt | strip_html}}</a></p>
-        
-    </article>
-    {% endfor %}
-                             
-    </div>
-    </section>
-    </div>
            
     
         <div id="main">
-        <section id="two">
-        <div class="inner">
-        <footer class="major">
-        <ul class="pagination">
-                        
-            {% if paginator.previous_page %}
-            {% if paginator.previous_page == 1 %}
-            <li><a href="{{site.baseurl}}" class="previous">Previous Articles</a></li>
-            {% else %}
-            <li><a href="{{site.baseurl}}blog/page{{paginator.previous_page}}" class="previous">Previous Articles</a></li>
-            {% endif %}
-            {% endif %}
-            <li><span class="extra">&hellip;</span></li>
-            {% if paginator.next_page %}
-            <li><a href="{{site.baseurl}}blog/page{{paginator.next_page}}" class="next">Next Articles</a></li>
-            {% endif %}
-    
-        </ul>
-        </footer>
-        </div>                      
-        </section>
+        
         
     
+            
+            
+            <section id="two" class="rationality">
+                    <div class="inner">
+                        <header class="major">
+                           
+                           <br>
+                            <h2>Authors:</h2>
+                            
+                        
+                    </div>
+                   
+                </section>
+            
+            
     
     
     <section id="two" class="rationality">
                     <div class="inner">
                         <header class="major">
                            
-                            <!-- <h2>Altman &amp; Berg’s Rationale</h2> -->
-                            <h2>Marketing Insight for Wine Professionals</h2>
+                           
+                            <h2>Gaspar Lobato Grinberg</h2>
                             
                         </header>
+                        <p>"My objective is to provide as much value as I can."</p>
+                        <p>During my work career I executed marketing actions generating business growth in both the hospitality industry<br> and the news media industry. If you want to know more about me you can visit my <a href="http://gasparg.com">personal website.</a></p>
+                        
+                        <!--
                         <p>Altman &amp; Berg’s objective is to publish valuable and actionable information about B2B marketing for the wine industry.</p>
                         <p>Gaspar Lobato Grinberg is the lead columnist for Altman &amp; Berg. During his work career he has executed marketing<br> actions generating business growth in multiple industries. To know more about him you can visit his <a href="http://gasparg.com">personal website.</a></p>
-                        <!-- <p>Altman &amp; Berg’s objective is to publish valuable and actionable information about sales and marketing of/for the wine industry. These articles provide a mix of research studies, cross-industries analysis, marketing strategies, and commentary from diverse professionals in the industry. Regular readers are winery professionals involved in sales and marketing. Nonetheless any professional of the industry from distributors, merchants, and journalists can obtain valuable information from this publication.</p> -->
+                        -->
+                       
                         <ul class="actions">
-                            <li><a href="landing.html" class="button next">Sign Up for the Newsletter</a></li>
+                            <li><a href="http://gasparg.com" class="button next">Contact Gaspar</a></li>
                         </ul>
                     </div>
                     <img src="images/gaspar_web_22.png">
+                </section>
+            
+            
+            
+                <section id="two" class="rationality">
+                    <div class="inner">
+                        <header class="major">
+                           
+                            
+                            <h2>Want to Join?</h2>
+                            
+                        </header>
+                        <p>Altman &amp; Berg’s objective is to publish valuable and actionable information about B2B marketing for the wine<br> industry. If you can help with this objective you are very welcome to join, send me a message and we'll talk.</p>
+                        
+                        
+                        <!--
+                        <p>If you can help with this objective you are very welcome to join. Send me a message and will talk.</p>
+                        <p>Gaspar Lobato Grinberg is the lead columnist for Altman &amp; Berg. During his work career he has executed marketing<br> actions generating business growth in multiple industries. To know more about him you can visit his <a href="http://gasparg.com">personal website.</a></p>
+                        -->
+                       
+                        <ul class="actions">
+                            <li><a href="#footer" class="button next">Contact</a></li>
+                        </ul>
+                        <br>
+                        <br>
+                    </div>
+                    <img src="images/gaspar_web_24.png">
                 </section>
             
             </div>
@@ -122,7 +124,6 @@ layout:  default
 
             <footer id="footer" >
                 <div class="inner">
-                    
                     <section>
                         
                         <!-- <h2><a name="contact">Connect with Altman &amp; Berg</a></h2> -->
