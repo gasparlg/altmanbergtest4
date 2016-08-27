@@ -1951,13 +1951,16 @@ margin: 0 0 .6em 0;
 
 
 
+/* This manages the line after the header */
+
 #two header.major > :first-child:after {
 				content: '';
 				background-color: black;
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
-				width: 100%;
+				/* width: 100%; */
+                width: 72%;
 			}
 
 /* This is the p of the articles in the home page */
@@ -5390,3 +5393,24 @@ footer .tagspage {
         min-height: 10em;
         max-height: 30em;
     }
+
+
+
+
+
+/* Image of the about section */
+
+#two {
+    position: relative;
+}
+
+#two img {
+    height: 41.5vh;
+    height: 19em;
+    width:;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    display: block;
+    
+}
