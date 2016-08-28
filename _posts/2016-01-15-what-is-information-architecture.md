@@ -38,3 +38,7 @@ Every service and product provided is based on information, and as every second 
 Gaspar Lobato Grinberg
 
 gasparg.com
+
+<h3>Share this article:</h3>
+<div class="addthis_inline_share_toolbox"></div>
+<br>
