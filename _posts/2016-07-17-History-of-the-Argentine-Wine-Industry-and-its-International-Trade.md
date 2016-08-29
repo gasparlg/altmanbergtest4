@@ -75,6 +75,9 @@ The objectives of the industry for the year 2020 are to increase the export reve
 <h3>Share this article:</h3>
 <div class="addthis_inline_share_toolbox"></div>
 <a class="addthis_button_facebook_share" fb:share:layout="button_count"></a>
+
+<div class="fb-share-button" data-href="http://frontmesh.com/History-of-the-Argentine-Wine-Industry-and-its-International-Trade" data-description="the most amazing history of argentine wine" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffrontmesh.com%2FHistory-of-the-Argentine-Wine-Industry-and-its-International-Trade&amp;src=sdkpreparse">Share</a></div>
+
 <br>
 <meta property="og:url" content="http://frontmesh.com/History-of-the-Argentine-Wine-Industry-and-its-International-Trade" />
 <meta property="og:type" content="article" />
