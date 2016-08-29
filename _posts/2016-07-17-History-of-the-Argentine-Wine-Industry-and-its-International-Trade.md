@@ -74,6 +74,12 @@ The objectives of the industry for the year 2020 are to increase the export reve
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <h3>Share this article:</h3>
 <div class="addthis_inline_share_toolbox"></div>
+<a class="addthis_button_facebook_share" fb:share:layout="button_count"></a>
 <br>
+<meta property="og:url" content="http://127.0.0.1:4000/History-of-the-Argentine-Wine-Industry-and-its-International-Trade" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="History of the Argentine Wine Industry and its International Trade" />
+<meta property="og:description" content="The bicentennial of the Declaration of Independence of Argentina" />
+<meta property="og:image" content="http://127.0.0.1:4000/images/Publicidad-2-Vino-Panquegua.jpg" />
 
 
