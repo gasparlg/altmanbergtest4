@@ -81,5 +81,5 @@ The objectives of the industry for the year 2020 are to increase the export reve
 <meta property="og:title" content="History of the Argentine Wine Industry and its International Trade" />
 <meta property="og:description" content="The bicentennial of the Declaration of Independence of Argentina" />
 <meta property="og:image" content="http://127.0.0.1:4000/images/Publicidad-2-Vino-Panquegua.jpg" />
-
+<meta property="og:site_name" content="Altman Berg" />
 
