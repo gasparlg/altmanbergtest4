@@ -4455,7 +4455,7 @@ ul.icons {
 
 @media screen and (min-width: 100px) and (max-width: 449px){
         .textmargin {
-        max-width: 95%;
+        max-width: 98%;
         margin: 0 auto;
     }
 }
@@ -4604,6 +4604,12 @@ label {
     font-weight: 400;
     letter-spacing: 0.025em;
     line-height: 1.75;
+}
+
+@media screen and (min-width: 100px) and (max-width: 449px){
+        #articletext p {
+            line-height: 1.55;
+        }
 }
 
 
