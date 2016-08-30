@@ -4446,16 +4446,16 @@ ul.icons {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 500px) and (max-width: 999px){
+@media screen and (min-width: 450px) and (max-width: 999px){
         .textmargin {
         max-width: 85%;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 100px) and (max-width: 499px){
+@media screen and (min-width: 100px) and (max-width: 449px){
         .textmargin {
-        max-width: 90%;
+        max-width: 95%;
         margin: 0 auto;
     }
 }
@@ -4603,7 +4603,7 @@ label {
     font-size: 14.6pt;
     font-weight: 400;
     letter-spacing: 0.025em;
-    line-height: 1.65;
+    line-height: 1.75;
 }
 
 
@@ -4909,7 +4909,7 @@ header {
 
 
 
-/* The ul.meta are the the date, author and min read information for each article in the index page*/
+/* The ul.meta are the the date, author and min read information for each article in the index page */
 
 ul.meta {
 			cursor: default;
