@@ -48,6 +48,9 @@ Today Francis Mallmann owns four restaurants in Argentina, Uruguay and United St
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <h3>Share this article:</h3>
 <div class="addthis_inline_share_toolbox"></div>
+
+<div class="fb-share-button" data-href="http://frontmesh.com/Francis-Mallmann-Living-on-the-Edge-of-Uncertainty" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffrontmesh.com%2FFrancis-Mallmann-Living-on-the-Edge-of-Uncertainty&amp;src=sdkpreparse">Share</a></div>
+
 <br>
 
 
