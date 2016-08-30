@@ -5432,7 +5432,6 @@ footer .tagspage {
 }
 
 #two img {
-    height: 41.5vh;
     height: 19em;
     width:;
     position: absolute;
@@ -5441,10 +5440,10 @@ footer .tagspage {
     display: block;
 }
 
-/* ?? */
+/* this query does work */
 
 @media screen and (max-width: 630px) {
     #two img {
-        height: 10em;
+        display: none;
     }
 }
