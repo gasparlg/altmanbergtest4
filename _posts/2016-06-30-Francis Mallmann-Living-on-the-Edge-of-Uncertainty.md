@@ -2,7 +2,7 @@
 layout: post
 title:  "Francis Mallmann ‘Living on the Edge of Uncertainty’"
 date:   2016-06-30
-tags: [Argentina]
+tags: [Argentina, Wine] 
 img: images/francis33333.jpg
 minread: 4
 lang: es
@@ -36,6 +36,8 @@ About his preferences of wine he has expressed a liking towards old elegant thin
 
 Today Francis Mallmann owns four restaurants in Argentina, Uruguay and United States and will soon publish his third book ‘Fires of Patagonia’.
 
+<div class="divider">.&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;.</div>
+
 ### Gaspar Lobato Grinberg
 
 <span class="imgpp"> 
@@ -52,6 +54,7 @@ Today Francis Mallmann owns four restaurants in Argentina, Uruguay and United St
 <div class="fb-share-button" data-href="http://frontmesh.com/Francis-Mallmann-Living-on-the-Edge-of-Uncertainty" data-layout="button_count" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Ffrontmesh.com%2FFrancis-Mallmann-Living-on-the-Edge-of-Uncertainty&amp;src=sdkpreparse">Share</a></div>
 
 <br>
+
 
 
 

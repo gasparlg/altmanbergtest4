@@ -163,20 +163,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1em 0;
 }
 
-#footer h3 {
-    font-size: 1.5em;
-}
-
-#footer h4 {
-    font-size: 1em;
-    margin: 0 0 .3em 0;
-    font-weight: 300;
-}
-
-#footer h4:last-of-type {
-    margin: 0 0 2.1em 0;
-}
-
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     border-bottom: 0;
@@ -224,6 +210,20 @@ h6 {
     }
 }
 
+#footer h3 {
+    font-size: 1.5em;
+}
+
+#footer h4 {
+    font-size: 1em;
+    margin: 0 0 .3em 0;
+    font-weight: 300;
+}
+
+#footer h4:last-of-type {
+    margin: 0 0 2.1em 0;
+}
+
 sup {
     font-size: 0.8em;
     position: relative;
@@ -261,6 +261,7 @@ pre code {
     overflow-x: auto;
 }
 
+/*
 hr {
     border: 0;
     border-bottom: solid 1px rgba(212, 212, 255, 0.1);
@@ -270,7 +271,8 @@ hr {
 hr.major {
     margin: 3em 0;
 }
-
+*/
+/*
 .align-left {
     text-align: left;
 }
@@ -282,6 +284,7 @@ hr.major {
 .align-right {
     text-align: right;
 }
+*/
 
 /* This is the p of the articles in the home page */
 
@@ -295,9 +298,11 @@ header.major > p {
     padding: 1em;
 }
 
+/*
 section.special, article.special {
     text-align: center;
 }
+*/
 
 /* Here you set the fonts for the Altman & Berg site title of the main banner */
 
@@ -343,6 +348,13 @@ section.special, article.special {
 
 #articletext p {
     font-family: Lora, Cambria, Georgia, serif;
+    font-size: 14.6pt;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    line-height: 1.75;
+}
+
+.post-links a {
     font-size: 14.6pt;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -405,6 +417,9 @@ header h1 a:hover {
     text-decoration: underline;
 }
 
+.rationality h2 {
+    margin-top: 1em;
+}
 
 /* ---------------------- END OF FONTS/TYPE ------------------------ */
 
@@ -635,6 +650,7 @@ textarea {
     color: black;
 }
 
+/*
 input[type="checkbox"],
 input[type="radio"] {
     -moz-appearance: none;
@@ -649,6 +665,7 @@ input[type="radio"] {
     z-index: -1;
 }
 
+/*
 input[type="checkbox"] + label,
 input[type="radio"] + label {
     text-decoration: none;
@@ -702,6 +719,7 @@ input[type="radio"]:focus + label:before {
 input[type="radio"] + label:before {
     border-radius: 100%;
 }
+*/
 
 /* the following settings modify the color of the words inside the contact form */
 
@@ -748,10 +766,12 @@ input[type="radio"] + label:before {
     text-transform: none !important;
 }
 
+
 .icon > .label {
     display: none;
 }
 
+/*
 .icon.alt:before {
     background-color: #ffffff;
     border-radius: 100%;
@@ -777,13 +797,14 @@ a.icon.alt:hover:before {
 a.icon.alt:active:before {
     background-color: #2a598f;
 }
+*/
 
 
 
 
 
 
-/* IMAGES */
+/* ----------------------- IMAGES ------------------------ */
 
 .image.main {
     display: block;
@@ -977,7 +998,7 @@ a.icon.alt:active:before {
 }
 
 #two img {
-    height: 19em;
+    height: 17em;
     width:;
     position: absolute;
     bottom: 0;
@@ -994,6 +1015,12 @@ a.icon.alt:active:before {
 }
 
 @media screen and (max-width: 800px) {
+    #two img {
+        height: 15em;
+    }
+}
+
+@media screen and (max-width: 700px) {
     #two img {
         height: 14em;
     }
@@ -1012,7 +1039,7 @@ a.icon.alt:active:before {
 
 
 
-/* ABOUT SECTION */
+/* -------------------------- ABOUT SECTION -------------------------- */
 
 #two .about {
     padding-right: 14em;
@@ -1038,6 +1065,7 @@ a.icon.alt:active:before {
 
 /* BUTTON */
 /* The class button is used in the buttons for the newsletter */
+
 
 input[type="submit"],
 input[type="reset"],
@@ -1079,6 +1107,7 @@ button,
     color: black;
 }
 
+/*
 input[type="submit"]:hover, input[type="submit"]:active,
 input[type="reset"]:hover,
 input[type="reset"]:active,
@@ -1101,7 +1130,9 @@ button:active,
     box-shadow: inset 0 0 0 2px #2a598f;
     color: #2a598f;
 }
+*/
 
+/*
 input[type="submit"].icon:before,
 input[type="reset"].icon:before,
 input[type="button"].icon:before,
@@ -1109,7 +1140,9 @@ button.icon:before,
 .button.icon:before {
     margin-right: 0.5em;
 }
+*/
 
+/*
 input[type="submit"].fit,
 input[type="reset"].fit,
 input[type="button"].fit,
@@ -1119,7 +1152,9 @@ button.fit,
     margin: 0 0 1em 0;
     width: 100%;
 }
+*/
 
+/*
 input[type="submit"].small,
 input[type="reset"].small,
 input[type="button"].small,
@@ -1137,6 +1172,7 @@ button.big,
     height: 3em;
     line-height: 3em;
 }
+*/
 
 input[type="submit"].next,
 input[type="reset"].next,
@@ -1214,6 +1250,8 @@ button.next:active:after,
     }
 }
 
+/* .button.special deals with the menu buttons */
+
 input[type="submit"].special,
 input[type="reset"].special,
 input[type="button"].special,
@@ -1245,6 +1283,7 @@ button.special:active,
     background-color: #2a598f;
 }
 
+/*
 input[type="submit"].disabled, input[type="submit"]:disabled,
 input[type="reset"].disabled,
 input[type="reset"]:disabled,
@@ -1261,11 +1300,13 @@ button:disabled,
     cursor: default;
     opacity: 0.25;
 }
+*/
 
 
 
 /* This affects the surrounding box of the submit message button */
 
+/*
 .articlepage input[type="submit"],
 .articlepage input[type="reset"],
 .articlepage input[type="button"],
@@ -1273,10 +1314,11 @@ button:disabled,
 .articlepage .button {
     box-shadow: inset 0 0 0 2px #000; 
 }
+*/
 
 
 
-/* HEADER */
+/* ---------------------------- HEADER ------------------------------ */
 
 /* This makes the header dessapear at appear in the index */
 
@@ -1502,7 +1544,7 @@ button:disabled,
 
 
 
-/* BANNER */
+/* ---------------------------- BANNER --------------------------- */
 
 #banner {
     -moz-align-items: center;
@@ -1784,7 +1826,10 @@ button:disabled,
     z-index: 10002;
 }
 
+
+
 #menu .inner {
+/*
     -moz-transition: -moz-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
     -webkit-transition: -webkit-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
     -ms-transition: -ms-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
@@ -1800,9 +1845,10 @@ button:disabled,
     overflow: auto;
     text-align: center;
     visibility: hidden;
+*/
     width: 18em;
 }
-
+/*
 #menu .inner > :first-child {
     margin-top: 2em;
 }
@@ -1810,6 +1856,7 @@ button:disabled,
 #menu .inner > :last-child {
     margin-bottom: 3em;
 }
+*/
 
 #menu ul {
     margin: 0 0 1em 0;
@@ -1820,11 +1867,13 @@ button:disabled,
     list-style: none;
     padding: 0;
 }
-
+/*
 #menu ul.links > li {
     padding: 0;
 }
+*/
 
+/*
 #menu ul.links > li > a:not(.button) {
     border: 0;
     border-top: solid 1px rgba(212, 212, 255, 0.1);
@@ -1836,15 +1885,19 @@ button:disabled,
     text-decoration: none;
     text-transform: uppercase;
 }
+*/
+
 
 #menu ul.links > li > .button {
     display: block;
     margin: 0.5em 0 0 0;
 }
 
+/*
 #menu ul.links > li:first-child > a:not(.button) {
     border-top: 0 !important;
 }
+*/
 
 #menu .close {
     -moz-transition: color 0.2s ease-in-out;
@@ -1869,6 +1922,7 @@ button:disabled,
     width: 8em;
 }
 
+
 #menu .close:before, #menu .close:after {
     -moz-transition: opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -1885,12 +1939,13 @@ button:disabled,
     width: 4em;
 }
 
+
 #menu .close:before {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='25px' height='25px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
 }
 
 #menu .close:after {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='20px' height='20px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='25px' height='25px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
     opacity: 0;
 }
 
@@ -2452,6 +2507,7 @@ ul.actions.vertical.small li:first-child {
     padding-top: 0;
 }
 
+/*
 ul.actions.fit {
     display: table;
     margin-left: -0.875em;
@@ -2477,6 +2533,7 @@ ul.actions.fit.small {
 ul.actions.fit.small li {
     padding: 0 0 0 0.4375em;
 }
+*/
 
 @media screen and (max-width: 480px) {
 
@@ -2731,6 +2788,18 @@ footer .tagspage {
     min-height: 10em;
     max-height: 30em;
 } 
+
+
+
+.divider {
+    color: rgba(0,0,0,.6);
+    position: relative;
+    top: -20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.6em;
+}
 
 
 
