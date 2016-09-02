@@ -1,11 +1,11 @@
 ---    
-layout: default
+layout: default 
 title: Post Archives
 ---
 <div id="wrapper" class="mainpage">
 <!-- HEADER --> 
     <header id="header" class="alt">
-        <a href="{{site.baseurl}}index" class="logo"><strong></strong><span>Altman <span id="amp">&amp;</span> Berg</span></a>
+        <a href="{{site.baseurl}}" class="logo"><strong></strong><span>Altman <span id="amp">&amp;</span> Berg</span></a>
         <nav>
             <a href="http://frontmesh.com" class="logo" id="lang">English</a>
             <a href="http://es.frontmesh.com" class="logo" id="lang">Español</a>
@@ -14,10 +14,10 @@ title: Post Archives
     </header>
 <!-- MENU -->
     <nav id="menu">
-        <ul class="links" class="actions vertical">
-            <li><a href="{{site.baseurl}}index" class="button special">Home</a></li>
+        <ul class="links">
+            <li><a href="{{site.baseurl}}" class="button special">Home</a></li>
             <li><a href="{{site.baseurl}}columnists" class="button special">Columnists</a></li>
-            <li><a href="{{site.baseurl}}tags/index" class="button special">Archive</a></li>
+            <li><a href="{{site.baseurl}}tags" class="button special">Archive</a></li>
             <li><a href="#footer" class="button special">Contact</a></li>
             <li><a href="http://frontmesh.com" class="button special">English</a></li>
             <li><a href="http://es.frontmesh.com" class="button special">Español</a></li>
@@ -32,7 +32,7 @@ title: Post Archives
     <section id="banner" class="major">
         <div class="inner">
             <header class="major">
-                <h1><a href="{{site.baseurl}}index">Altman <span id="amp">&amp;</span> Berg</a></h1>
+                <h1><a href="{{site.baseurl}}">Altman <span id="amp">&amp;</span> Berg</a></h1>
             </header>
             <div class="content">
                 <p>{{site.tagline}}</p>
@@ -45,7 +45,7 @@ title: Post Archives
         <article role="article">
             <header>
                 <h2 id="top">{{page.title}}:</h2>
-                 <ul class="tag-cloud">
+                <ul class="tag-cloud">
                      {% capture site_tags %}{% for tag in site.tags %}{{tag | first}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
                      {% assign sortedTags=site_tags | split:',' | sort %}
                      {% for tag in sortedTags %}
@@ -65,7 +65,7 @@ title: Post Archives
                 {% endfor %}
                 <li class="return"><a href="#top" title="return to top">return to top</a></li>
             </ul>
-         {% endfor %}
+            {% endfor %}
         </article>
     </section>
 </div>

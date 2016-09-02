@@ -5,7 +5,7 @@ page-type: post
 <div id="wrapper" class="articlepage">
 <!-- HEADER -->
     <header id="header">
-        <a href="{{site.baseurl}}index" class="logo"><span>Altman <span id="amp">&amp;</span> Berg</span></a>
+        <a href="{{site.baseurl}}" class="logo"><span>Altman <span id="amp">&amp;</span> Berg</span></a>
         <nav>
             <a href="http://frontmesh.com" class="logo" id="lang">English</a>
             <a href="http://es.frontmesh.com" class="logo" id="lang">Español</a>
@@ -14,10 +14,10 @@ page-type: post
     </header>
 <!-- MENU -->
     <nav id="menu">
-        <ul class="links" class="actions vertical">
+        <ul class="links">
             <li><a href="{{site.baseurl}}" class="button special">Home</a></li>
             <li><a href="{{site.baseurl}}columnists" class="button special">Columnists</a></li>
-            <li><a href="{{site.baseurl}}tags/index" class="button special">Archive</a></li>
+            <li><a href="{{site.baseurl}}tags" class="button special">Archive</a></li>
             <li><a href="#footer" class="button special">Contact</a></li>
             <li><a href="http://frontmesh.com" class="button special">English</a></li>
             <li><a href="http://es.frontmesh.com" class="button special">Español</a></li>
@@ -37,11 +37,11 @@ page-type: post
                         <h1>{{page.title}}</h1>
                         <time itemprop="dateCreated" datetime="{{page.date}}">
                             {{ page.date | date: "%B %-d, %Y" }}</time>
-                        <p> {{page.author}}</p>
+                        <p>{{page.author}}</p>
                     </header>
                 </div>
                 {% if page.img %}
-                    <span class="image" >
+                    <span class="image">
                         <img src="{{page.img}}" alt="" />
                     </span>
                 {% endif %}
