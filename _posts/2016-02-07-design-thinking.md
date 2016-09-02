@@ -5,6 +5,7 @@ date:   2016-02-07
 tags: [research]
 <!-- img: images/francis33.jpg -->
 img: images/vineyard_goodC2_2.jpg
+img-s: images/vineyard_goodC2_2-s.jpg
 minread: 3
 author: By Gaspar Lobato Grinberg
 ---

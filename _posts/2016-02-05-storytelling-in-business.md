@@ -4,6 +4,7 @@ title:  "Storytelling In Business"
 date:   2016-02-05
 tags: [communication]
 img: images/vineyard_goodC2_2.jpg
+img-s: images/vineyard_goodC2_2-s.jpg
 minread: 4
 author: By Gaspar Lobato Grinberg
 ---

@@ -6,6 +6,7 @@ tags: [Argentina]
 excerpt: "After such a special time as the bicentennial of the Declaration of Independence of Argentina, it is a great opportunity to remember the well-trodden paths of the Argentine wine industry."
 <!-- img: images/francis33.jpg -->
 img: images/pub.jpg 
+img-s: images/pub-s.jpg 
 minread: 5
 lang: es
 author: By Gaspar Lobato Grinberg
