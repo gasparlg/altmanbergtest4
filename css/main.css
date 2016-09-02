@@ -261,31 +261,6 @@ pre code {
     overflow-x: auto;
 }
 
-/*
-hr {
-    border: 0;
-    border-bottom: solid 1px rgba(212, 212, 255, 0.1);
-    margin: 2em 0;
-}
-
-hr.major {
-    margin: 3em 0;
-}
-*/
-/*
-.align-left {
-    text-align: left;
-}
-
-.align-center {
-    text-align: center;
-}
-
-.align-right {
-    text-align: right;
-}
-*/
-
 /* This is the p of the articles in the home page */
 
 /* this changes the aspect of the font of the author in the articles page */
@@ -297,12 +272,6 @@ header.major > p {
     margin-bottom: 0;
     padding: 1em;
 }
-
-/*
-section.special, article.special {
-    text-align: center;
-}
-*/
 
 /* Here you set the fonts for the Altman & Berg site title of the main banner */
 
@@ -455,8 +424,6 @@ header.major {
 
 
 
-
-
 /* ------- ARTICLEPAGE STUFF ------- */
 
 /* the background color of the article page */
@@ -530,22 +497,6 @@ header.major {
 
 
 
-
-
-
-/* Section/Article (?) */
-
-
-/*
-header.major {
-    width: -moz-max-content;
-    width: -webkit-max-content;
-    width: -ms-max-content;
-    width: max-content;
-    margin-bottom: 2em;
-}
-*/
-
 /* This deals with the line of the about section and also with the header part of the article pages */
 
 header.major > :first-child {
@@ -563,15 +514,6 @@ header.major > :first-child:after {
     height: 2px;
     margin: 0.325em 0 0.5em 0;
     width: 100%;
-}
-
-
-/* Black Line under where it says in depth */
-/*
-.blackfont header.major > :first-child:after {
-    
-    background-color: #000;
-    display: none;
 }
 
 /* This manages the line after the header in the about section */
@@ -707,77 +649,6 @@ textarea {
     color: black;
 }
 
-/*
-input[type="checkbox"],
-input[type="radio"] {
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    -ms-appearance: none;
-    appearance: none;
-    display: block;
-    float: left;
-    margin-right: -2em;
-    opacity: 0;
-    width: 1em;
-    z-index: -1;
-}
-
-/*
-input[type="checkbox"] + label,
-input[type="radio"] + label {
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
-    display: inline-block;
-    font-weight: 300;
-    padding-left: 2.65em;
-    padding-right: 0.75em;
-    position: relative;
-}
-
-input[type="checkbox"] + label:before,
-input[type="radio"] + label:before {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: none !important;
-}
-
-input[type="checkbox"] + label:before,
-input[type="radio"] + label:before {
-    background: rgba(212, 212, 255, 0.035);
-    content: '';
-    display: inline-block;
-    height: 1.65em;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 1.58125em;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 1.65em;
-}
-
-input[type="checkbox"]:checked + label:before,
-input[type="radio"]:checked + label:before {
-    background: #ffffff;
-    border-color: #2a598f;
-    content: '\f00c';
-    color: #242943;
-}
-
-input[type="checkbox"]:focus + label:before,
-input[type="radio"]:focus + label:before {
-    box-shadow: 0 0 0 2px #2a598f;
-}
-
-input[type="radio"] + label:before {
-    border-radius: 100%;
-}
-*/
-
 /* the following settings modify the color of the words inside the contact form */
 
 ::-webkit-input-placeholder {
@@ -807,13 +678,6 @@ input[type="radio"] + label:before {
 
 
 /* ------------------ SOCIAL MEDIA FOLLOW ICONS -------------------- */
-/*
-.icon {
-    text-decoration: none;
-    border-bottom: none;
-    position: relative;
-}
-*/
 
 /* This deals with the social media follow icons at the footer */
 
@@ -830,35 +694,6 @@ input[type="radio"] + label:before {
 .icon > .label {
     display: none;
 }
-
-/*
-.icon.alt:before {
-    background-color: #ffffff;
-    border-radius: 100%;
-    color: #242943;
-    display: inline-block;
-    height: 2em;
-    line-height: 2em;
-    text-align: center;
-    width: 2em;
-}
-
-a.icon.alt:before {
-    -moz-transition: background-color 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out;
-}
-
-a.icon.alt:hover:before {
-    background-color: #2a598f;
-}
-
-a.icon.alt:active:before {
-    background-color: #2a598f;
-}
-*/
-
 
 
 
@@ -1038,15 +873,7 @@ a.icon.alt:active:before {
 .imagep img {
     display: block;
 }
-
-/*
-@media screen and (max-width: 736px) {
-
-    .imagep.main {
-        margin: 0 0 1.75em 0;
-    }
-}
-        
+     
 
 
 
@@ -1114,6 +941,13 @@ a.icon.alt:active:before {
     }
 }
 
+/* This is for the rationality/about section */
+
+.rationality {
+    background-color: white;
+    border-bottom: solid 1px rgba(0,0,0,0.4);
+    border-top: solid 1px rgba(0, 0, 0, 0.4);
+}
 
 
 
@@ -1153,81 +987,6 @@ button,
     text-transform: uppercase;
     white-space: nowrap;
 }
-
-
-/* This deals with the color of the box and the text of the submit button of the footer */
-/*
-.mainpage input[type="submit"] {
-    box-shadow: inset 0 0 0 2px #000; 
-    color: black;
-}
-
-/*
-input[type="submit"]:hover, input[type="submit"]:active,
-input[type="reset"]:hover,
-input[type="reset"]:active,
-input[type="button"]:hover,
-input[type="button"]:active,
-button:hover,
-button:active,
-.button:hover,
-.button:active {
-    box-shadow: inset 0 0 0 2px #2a598f;
-    color: #2a598f;
-}
-
-input[type="submit"]:active,
-input[type="reset"]:active,
-input[type="button"]:active,
-button:active,
-.button:active {
-    background-color: rgba(155, 241, 255, 0.1);
-    box-shadow: inset 0 0 0 2px #2a598f;
-    color: #2a598f;
-}
-*/
-
-/*
-input[type="submit"].icon:before,
-input[type="reset"].icon:before,
-input[type="button"].icon:before,
-button.icon:before,
-.button.icon:before {
-    margin-right: 0.5em;
-}
-*/
-
-/*
-input[type="submit"].fit,
-input[type="reset"].fit,
-input[type="button"].fit,
-button.fit,
-.button.fit {
-    display: block;
-    margin: 0 0 1em 0;
-    width: 100%;
-}
-*/
-
-/*
-input[type="submit"].small,
-input[type="reset"].small,
-input[type="button"].small,
-button.small,
-.button.small {
-    font-size: 0.6em;
-}
-
-input[type="submit"].big,
-input[type="reset"].big,
-input[type="button"].big,
-button.big,
-.button.big {
-    font-size: 1.25em;
-    height: 3em;
-    line-height: 3em;
-}
-*/
 
 /* The arrow of some buttons: */
 
@@ -1340,38 +1099,7 @@ button.special:active,
     background-color: #2a598f;
 }
 
-/*
-input[type="submit"].disabled, input[type="submit"]:disabled,
-input[type="reset"].disabled,
-input[type="reset"]:disabled,
-input[type="button"].disabled,
-input[type="button"]:disabled,
-button.disabled,
-button:disabled,
-.button.disabled,
-.button:disabled {
-    -moz-pointer-events: none;
-    -webkit-pointer-events: none;
-    -ms-pointer-events: none;
-    pointer-events: none;
-    cursor: default;
-    opacity: 0.25;
-}
-*/
 
-
-
-/* This affects the surrounding box of the submit message button */
-
-/*
-.articlepage input[type="submit"],
-.articlepage input[type="reset"],
-.articlepage input[type="button"],
-.articlepage button,
-.articlepage .button {
-    box-shadow: inset 0 0 0 2px #000; 
-}
-*/
 
 
 
@@ -1663,54 +1391,13 @@ button:disabled,
     z-index: 2;
 }
 
-/* Is this image thing being used? Maybe i should keep it for later */
-/*
-#banner > .inner .image {
-    display: none;
-}
-*/
-/*
-#banner > .inner header {
-    width: auto;
-}
-*/
-
 #banner > .inner header > :first-child {
     width: auto;
 }
 
-/*
-#banner > .inner header > :first-child:after {
-    max-width: 100%;
-}
-*/
-
 #banner > .inner .content {
-    /*
-    display: -moz-flex;
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-    /*
-    -moz-align-items: center;
-    -webkit-align-items: center;
-    -ms-align-items: center;
-    align-items: center;
-    */
-
     margin: 0 0 2em 0;
 }
-
-/*
-#banner > .inner .content > * {
-    margin-left: 1.5em;
-    margin-bottom: 0;
-}
-
-#banner > .inner .content > :first-child {
-    margin-left: 0;
-}
-*/
 
 /* Here you set the height of the banner, which is the blue header with the title and tagline */
 
@@ -1719,11 +1406,6 @@ button:disabled,
     min-height: 10em;
     max-height: 50em;
 }
-/*
-#banner.major.alt {
-    opacity: 0.75;
-}
-*/
 
 @media screen and (max-width: 736px) {
     
@@ -1740,17 +1422,6 @@ button:disabled,
         top: -2.75em;
     }
     
-    /*
-    #banner > .inner .content {
-        display: block;
-    }
-    
-    #banner > .inner .content > * {
-        margin-left: 0;
-        margin-bottom: 2em;
-    }
-    */
-    
     #banner.major {
         height: auto;
         min-height: 0;
@@ -1759,15 +1430,7 @@ button:disabled,
 }
 
 @media screen and (max-width: 480px) {
-/*
-    #banner {
-        padding: 6em 0 2em 0 ;
-    }
-    
-    #banner > .inner .content p br {
-        display: none;
-    }
-*/
+
     #banner.major {
         padding: 8em 0 4em 0 ;
     }    
@@ -1797,51 +1460,15 @@ button:disabled,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* This is for the rationality/about section */
-
-.rationality {
-    background-color: white;
-    border-bottom: solid 1px rgba(0,0,0,0.4);
-    border-top: solid 1px rgba(0, 0, 0, 0.4);
-}
-
-
-
-
-
-
-
 /* Main */ 
 
 #main {
     background-color: #f0f0f0;
 }
 
-/* Line on top of the about section */
-/*
-#main > * {
-    border-top: solid 1px rgba(0, 0, 0, 0.4);
-}
-*/
-
-
 #main > *:first-child {
     border-top: 0;
 }
-
 
 /* Deals with the about section */
 #main > * > .inner {
@@ -1940,37 +1567,9 @@ button:disabled,
     z-index: 10002;
 }
 
-
-
 #menu .inner {
-/*
-    -moz-transition: -moz-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
-    -webkit-transition: -webkit-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
-    -ms-transition: -ms-transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
-    transition: transform 0.35s ease-out, opacity 0.35s ease, visibility 0.35s;
-    -moz-transform: rotateX(20deg);
-    -webkit-transform: rotateX(20deg);
-    -ms-transform: rotateX(20deg);
-    transform: rotateX(20deg);
-    -webkit-overflow-scrolling: touch;
-    max-width: 100%;
-    max-height: 100vh;
-    opacity: 0;
-    overflow: auto;
-    text-align: center;
-    visibility: hidden;
-*/
     width: 18em;
 }
-/*
-#menu .inner > :first-child {
-    margin-top: 2em;
-}
-
-#menu .inner > :last-child {
-    margin-bottom: 3em;
-}
-*/
 
 #menu ul {
     margin: 0 0 1em 0;
@@ -1981,37 +1580,11 @@ button:disabled,
     list-style: none;
     padding: 0;
 }
-/*
-#menu ul.links > li {
-    padding: 0;
-}
-*/
-
-/*
-#menu ul.links > li > a:not(.button) {
-    border: 0;
-    border-top: solid 1px rgba(212, 212, 255, 0.1);
-    display: block;
-    font-size: 0.8em;
-    font-weight: 600;
-    letter-spacing: 0.25em;
-    line-height: 4em;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-*/
-
 
 #menu ul.links > li > .button {
     display: block;
     margin: 0.5em 0 0 0;
 }
-
-/*
-#menu ul.links > li:first-child > a:not(.button) {
-    border-top: 0 !important;
-}
-*/
 
 #menu .close {
     -moz-transition: color 0.2s ease-in-out;
@@ -2036,7 +1609,6 @@ button:disabled,
     width: 8em;
 }
 
-
 #menu .close:before, #menu .close:after {
     -moz-transition: opacity 0.2s ease-in-out;
     -webkit-transition: opacity 0.2s ease-in-out;
@@ -2053,7 +1625,6 @@ button:disabled,
     width: 4em;
 }
 
-
 #menu .close:before {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='25px' height='25px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23ffffff%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
 }
@@ -2062,15 +1633,7 @@ button:disabled,
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='25px' height='25px' viewBox='0 0 20 20' zoomAndPan='disable'%3E%3Cstyle%3Eline %7B stroke: %23000000%3B stroke-width: 2%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='20' y2='20' /%3E%3Cline x1='20' y1='0' x2='0' y2='20' /%3E%3C/svg%3E");
     opacity: 0;
 }
-/*
-#menu .close:hover:after, #menu .close:active:after {
-    opacity: 1;
-}
 
-body.is-ie #menu {
-    background: rgba(42, 47, 74, 0.975);
-}
-*/
 body.is-menu-visible #wrapper {
     -moz-filter: blur(0.5em);
     -webkit-filter: blur(0.5em);
@@ -2086,16 +1649,7 @@ body.is-menu-visible #menu {
     opacity: 1;
     visibility: visible;
 }
-/*
-body.is-menu-visible #menu .inner {
-    -moz-transform: none;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-    opacity: 1;
-    visibility: visible;
-}
-*/
+
 
 
 
@@ -2141,15 +1695,6 @@ ul.pagination li a, ul.pagination li span {
     border-bottom: 0;
 }
 
-/* What is the effect of this? */
-/*
-ul.pagination li a {
-    -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-*/
 ul.pagination li .next, ul.pagination li .previous {
     text-decoration: none;
     padding: 0 2.1875em;
@@ -2180,15 +1725,7 @@ ul.pagination li .next:before {
     float: right;
     margin-left: 0.9375em;
 }
-/*
-ul.pagination li:first-child a {
-    border-left: 0;
-}
 
-.pagination li {
-    color: black;
-    border: black;
-}
 
 
 
@@ -2300,10 +1837,6 @@ ul.icons li {
     display: inline-block;
     padding: 0 1em 0 0;
 }
-/*
-ul.icons li:last-child {
-    padding-right: 0 !important;
-}
 
 /* What is this style2 thing ??? */
 
@@ -2393,19 +1926,6 @@ ul.icons.style2 li a.fa-youtube:active {
     background-color: #e36f6f;
 }
 
-/*
-label {
-    color: black;
-    display: block;
-    font-size: 0.8em;
-    font-weight: 600;
-    letter-spacing: 0.25em;
-    margin: 0 0 1em 0;
-    text-transform: uppercase;
-}
-
-
-
 
 
 
@@ -2426,30 +1946,6 @@ label {
 header {
     cursor: default;
 }
-
-/* What is this category thing ??? */
-/*
-header .category {
-    display: block;
-    font-size: 0.8em;
-    font-weight: 900;
-    letter-spacing: 0.075em;
-    margin: 0 0 1.64063em 0;
-    text-transform: uppercase;
-}
-
-header .category + h2, header .category + h3, header .category + h4, header .category + h5, header .category + h6 {
-    margin-top: 0;
-}
-/*
-header.major {
-    margin: 0 0 2.625em 0;
-}
-/*
-header.major h2 {
-    font-size: 2em;
-}
-*/
 
 header.major > :last-child {
     margin-bottom: 0;
@@ -2565,69 +2061,7 @@ ul.actions {
     list-style: none;
     padding-left: 0;
 }
-/*
-ul.actions li {
-    display: inline-block;
-    padding: 0 0.875em 0 0;
-    vertical-align: middle;
-}
 
-ul.actions li:last-child {
-    padding-right: 0;
-}
-
-ul.actions.small li {
-    padding: 0 0.4375em 0 0;
-}
-
-ul.actions.vertical li {
-    display: block;
-    padding: 0.875em 0 0 0;
-}
-
-ul.actions.vertical li:first-child {
-    padding-top: 0;
-}
-
-ul.actions.vertical li > * {
-    margin-bottom: 0;
-}
-
-ul.actions.vertical.small li {
-    padding: 0.4375em 0 0 0;
-}
-
-ul.actions.vertical.small li:first-child {
-    padding-top: 0;
-}
-
-/*
-ul.actions.fit {
-    display: table;
-    margin-left: -0.875em;
-    padding: 0;
-    table-layout: fixed;
-    width: calc(100% + 0.875em);
-}
-
-ul.actions.fit li {
-    display: table-cell;
-    padding: 0 0 0 0.875em;
-}
-
-ul.actions.fit li > * {
-    margin-bottom: 0;
-}
-
-ul.actions.fit.small {
-    margin-left: -0.4375em;
-    width: calc(100% + 0.4375em);
-}
-
-ul.actions.fit.small li {
-    padding: 0 0 0 0.4375em;
-}
-*/
 
 @media screen and (max-width: 480px) {
 
@@ -2665,9 +2099,6 @@ ul.actions.fit.small li {
         padding-top: 0;
     }
 }
-
-
-
 
 
 
@@ -2797,9 +2228,6 @@ ul.actions.fit.small li {
 
 
 
-
-
-
 /* Main */
 
 #main > .main {
@@ -2826,25 +2254,3 @@ ul.actions.fit.small li {
         padding: 2em 1em 0.25em 1em ;
     }
 }
-
-
-
-
-
-/* What is this cf and tag-cloud and tagspace ??? */
-/*
-.cf {
-    margin: 5em;
-}
-
-.tag-cloud {
-    margin-bottom: 3em;
-}
-
-
-footer .tagspage {
-    background-color: white;
-}
-
-
-
